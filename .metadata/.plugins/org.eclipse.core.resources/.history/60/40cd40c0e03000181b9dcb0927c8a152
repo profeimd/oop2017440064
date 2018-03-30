@@ -1,0 +1,11 @@
+
+public class Three {
+
+	public static void main(String[] args) {
+		// 3¹ø
+		System.out.println("3¹ø");
+		
+
+	}
+
+}

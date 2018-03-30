@@ -1,0 +1,12 @@
+
+public class TwentyFive1 {
+
+	public static void main(String[] args) {
+		// 25¹ø (1)
+		System.out.println("25¹ø (1)");
+		
+		
+
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class Seven {
+
+	public static void main(String[] args) {
+		// 7¹ø
+		System.out.println("7¹ø");
+		
+		Scanner input = new Scanner(System.in);
+		
+
+	}
+
+}

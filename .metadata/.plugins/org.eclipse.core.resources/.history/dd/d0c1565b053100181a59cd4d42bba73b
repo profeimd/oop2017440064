@@ -1,0 +1,27 @@
+
+public class TwentyThree {
+
+	public static void main(String[] args) {
+		// 23¹ø
+		System.out.println("23¹ø");
+		
+		int i = 7, j;
+		
+		while(i<=5) {
+			j=5;
+			while(j>=i) {
+				System.out.println("*");
+				j--;
+			}
+			System.out.print(" ");
+			while(i>=1) {
+				System.out.print("*");
+				i--;
+			}
+			i = i+2;
+		}
+		
+
+	}
+
+}
