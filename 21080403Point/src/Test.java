@@ -18,6 +18,7 @@ public class Test {
 		p.setY(temp);
 		System.out.println(p.getX()); //p.gatX(): 접근자 (메소드임!)
 		System.out.println(p.distance()); //p 객체의 distance()
+		// 'sout'입력 + Ctrl + Space_bar: System.out.println(); 자동 입력
 	}
 
 }

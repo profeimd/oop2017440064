@@ -13,11 +13,9 @@ public class DeskLamp {
 	}
 	
 	public String toString() {
-		if(isOn) {
+		if(isOn)
 			return "켜져있습니다.";
-		}
-		else {
+		else
 			return "꺼져있습니다.";
-		}
 	}
 }
