@@ -1,5 +1,5 @@
 
-public class Polygon {
+public abstract class Polygon {
 	public double height;
 	public double width;
 	

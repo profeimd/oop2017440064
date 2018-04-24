@@ -12,7 +12,6 @@ public class TestCar {
 //		myCar.setColor("Black");
 //		myCar.setSpeed(100);
 		System.out.println(myCar);
-		System.out.println(yourCar);
 
 	}
 
