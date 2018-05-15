@@ -12,7 +12,7 @@ public class Test {
 //		//error aaa.eat();
 		//우변 클라스가 좌변 클라스의 subclass이면 전혀 문제 없다. 좌변 <-- 우변 (Inheritance 표현)
 		//Upcasting(상향식 캐스팅)
-		//Animal aaa = new Dog(); //#15와 같은 표현
+		//Animal aaa = new Dog(); //#16과 같은 표현
 		Animal aaa = (Animal) new Dog(); //subclass를 superclass로 casting
 		// overriding한 메소드를 호출하면 subclass의 메소드를 수행한다.
 		aaa.sing();
@@ -22,7 +22,7 @@ public class Test {
 		//1. 하나의 클라스로부터 여러 서브클라스를 만들 경우
 		//2. 모든 서브클라스는 수퍼클라스의 메소드를 override한다.
 		//3. SuperClass SuperReferenceVariable = new SubClass();
-		//4. superRefVar.overfidedMethod() -> 객체의 클라스가 구현한 메솔드를 실행한다.
+		//4. superRefVar.overridedMethod() -> 객체의 클라스(=subclass)가 구현한 메소드를 실행한다.
 		
 		Scanner ss = new Scanner(System.in);
 		String str = ss.next();
