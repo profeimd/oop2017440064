@@ -18,6 +18,7 @@ public class MyFrame extends JFrame {
 		JTextField tf = new JTextField(20);//텍스트필드 객체 생성
 		JButton button = new JButton("chois button");//버튼 객체 생성
 		
+		
 		button.setText("확인");
 		tf.setText("0000"); // 거의 대부분의 컴포넌트는 getText, setText가 정의되어 있다.
 		
