@@ -175,8 +175,8 @@ public class Calculator extends JFrame implements ActionListener {
 		
 		else if((e.getActionCommand()).equals("b+")) {
 			this.txt.append("+");
-			while(count>=0) {
-				augend += (int) (Math.pow(10, (count-1))*temp[n]);
+			while(count>0) {
+				augend += Math.pow(10, (count-1))*temp[n];
 				n++;
 				count--;
 			}
@@ -186,8 +186,8 @@ public class Calculator extends JFrame implements ActionListener {
 		
 		
 		else if((e.getActionCommand()).equals("b=")) {
-			while(count>=0) {
-				addend += (int) (Math.pow(10, (count-1))*temp[n]);
+			while(count>0) {
+				addend += Math.pow(10, (count-1))*temp[n];
 				n++;
 				count--;
 			}
